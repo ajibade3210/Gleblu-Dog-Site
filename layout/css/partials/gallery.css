@@ -1,0 +1,367 @@
+/* gallery black-area */
+/* ################################################################### */
+.my-gallery {
+    padding: 150px 0 30px;
+}
+
+.my-gallery{
+    background: inherit;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../img/01.png"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Verdana, Geneva, sans-serif;
+  width: 100%;
+  height: 14rem;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.my-gallery ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.my-gallery li {
+    display: inline-block;
+    margin: 0 6px 0 0;
+    padding: 0;
+}
+
+.my-gallery li a {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0 12px 0 0;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.my-gallery li:last-child a {
+    color: #FF3F4A;
+}
+
+.my-gallery li a::after {
+    position: absolute;
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 10px;
+    top: 4px;
+    right: 0;
+    content: "\f0da";
+}
+
+/*end gallery black-area */
+
+
+/* THE GALLERY */
+
+.photo-gallery .row .col-lg-6{
+    margin: 0 0 .9rem 0;
+}
+
+.photo-gallery header, .full-width-section h1{
+    font-size: 1.4rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #474747;
+}
+
+.photo-gallery .figcaption{
+    display: block;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #474747;
+}
+
+.pagination {
+    margin-top: 5.5rem ;
+    margin-bottom: 5.5rem;
+}
+
+a.page-link{
+   color: #FF3F4A;
+   padding: .7rem;
+   font-size: 1.2rem;
+   border:  1px solid #bfc0c1;
+}
+/* ################################################################### */
+/* END THE GALLERY */
+
+
+/* full width pages  */
+/* ################################################################### */
+
+
+.floating {
+    border: 1px solid #D7D7D7;
+    padding: 5px;
+}
+
+
+.imgr {
+    margin: 0 0 10px 15px;
+}
+
+.imgl {
+    margin: 0 15px 10px 0;
+}
+
+.full-width-section h1{
+    margin: 6rem 0 1.5rem 0;
+}
+
+/* table section */
+table {
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #D7D7D7;
+    padding: 10rem;
+    max-height: 10rem
+}
+
+.table th, .table td{
+    border-color: #D7D7D7 !important;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 0px solid;
+    
+}
+
+
+tbody td a{
+    color: #FF3F4A;
+}
+
+/* table section end */
+
+
+/* media -- comment block */
+.media-body h5{
+    color: #616263 ;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.media-body h5 a{
+    color: #FF3F4A;
+}
+
+.media-body time {
+    font-size: smaller;
+    margin-bottom: 1.5rem;
+}
+
+.media-body p, .add-comment label{
+font-family: Verdana, Geneva, sans-serif;
+font-size: .9rem;
+margin-top: 1rem;
+color: #616263;
+}
+
+.media img{
+    border: 1px solid #d8d9da;
+    padding: .15rem;
+}
+/* media -end- comment block */
+
+
+
+/* add -- comment block */
+.add-comment{
+    padding: .2rem 0 7rem 0;
+}
+
+.add-comment label span{
+    color: #FF3F4A;
+}
+
+.add-comment textarea{
+    height: 12rem;
+}
+
+.add-comment button{
+    border: 1px solid #d8d9da;
+}
+
+.add-comment button:focus, .add-comment textarea:focus,
+.add-comment .form-control:focus
+{
+    border: 1px solid #FF3F4A;
+}
+/* ################################################################### */
+/* add -end- comment block */
+
+
+
+/* SIDE BAR LEFT */
+/* ################################################################### */
+.sidebar h6{
+margin: 5.5rem 0 1.5rem 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+.container .sidebar nav a:hover {
+    color: #FF3F4A;
+}
+.container .sidebar nav a {
+    color: inherit;
+    border-color: #D7D7D7;
+}
+.sidebar nav a {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 5px 10px 5px 15px;
+    text-decoration: none;
+    border: solid;
+    border-width: 0 0 1px 0;
+}
+
+a {
+    color: #FF3F4A;
+}
+
+.sidebar nav a::after {
+    top: 10px;
+    left: 5px;
+    content: "\f0da";
+}
+
+.sidebar nav ul ul a::after {
+    left: 25px;
+}
+
+.sidebar nav a::after {
+    position: absolute;
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    font-size: .9rem;
+    line-height: 10px;
+}
+
+.container .sidebar nav a {
+    color: inherit;
+    border-color: #D7D7D7;
+}
+
+.sidebar nav ul ul a {
+    padding-left: 47px;
+}
+.sidebar nav a {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 5px 10px 5px 15px;
+    text-decoration: none;
+    border: solid;
+    border-width: 0 0 1px 0;
+}
+
+/* SIDE BAR LEFT END */
+/* ################################################################### */
+
+
+
+
+/* BASIC GRID SECTION */
+/* ################################################################### */
+.basic-grid-section{
+    margin: 6rem 0 5rem 0;
+}
+
+.basic-grid-section h1{
+    margin: 3rem 0 1rem 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+ .row div.basic{
+    height: 2.5rem;
+    border-right: 3rem solid white;
+    text-align: center;
+    margin: 1rem 0 ;
+     padding: .5rem 0 0 0;
+     font-weight: 500;
+}
+
+
+.row div.basic:nth-child(even) {
+    color: #FFFFFF;
+    background-color: #979797;
+}
+
+.row div.basic:nth-child(odd) {
+    color: #FFFFFF;
+    background: #CCCCCC;
+}
+
+/* END BASIC GRID SECTION */
+/* ################################################################### */
+
+
+
+
+/* ICONS SECTION */
+/* ################################################################### */
+section .icons h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+/* .icon-section .nospace {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+.icon-section .fa, .fas {
+    font-weight: 900;
+}
+
+.icon-section .fa-fw {
+    text-align: left;
+    width: 1.25em;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    font-size: 14px;
+    line-height: 1.6em;
+    line-height: 1;
+}
+
+
+/* END ICONS SECTION */
+/* ################################################################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
